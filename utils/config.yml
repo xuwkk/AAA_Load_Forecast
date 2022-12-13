@@ -1,0 +1,23 @@
+random_seed: 42
+
+gen_new_data: False
+is_scale: True
+scale_type: 'minmax'
+one_year: False
+
+raw_data_dir: "./data/Final/Actuals.xlsx"
+clean_data_dir: 'data/Final/ActualsClean.csv'
+sigma: 3
+train_prop: 0.8
+test_prop: 0.2
+
+device_nn: 'cuda:0'
+device_milp: 'cpu'
+
+watch_test: True
+
+no_layer: 3
+first_hidden_size: 40
+nn_dir: 'trained_models/'
+lr: 0.0005
+epochs: 150

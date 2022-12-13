@@ -1,0 +1,8 @@
+data/Final
+*.zip
+*.npy
+log/
+*.pdf
+__pycache__/
+*.out
+
